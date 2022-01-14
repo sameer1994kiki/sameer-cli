@@ -1,2 +1,0 @@
-# sameer-cli
-sameer-cli
