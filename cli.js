@@ -1,4 +1,5 @@
-#! /usr/bin/env node -> 我要用系统中的这个目录/user/bin/env的node环境来执行此文件，且需要注意必须放在文件开头。
+#! /usr/bin/env node
+// -> 我要用系统中的这个目录/user/bin/env的node环境来执行此文件，且需要注意必须放在文件开头。
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -81,4 +82,4 @@ commander.on("--help", () => {
       })
   );
 });
-commander.parse();
+commander.parse(process.argv);
