@@ -1,7 +1,7 @@
 {
   "name": "sameer-cli",
   "version": "0.0.1",
-  "description": "sameer test cli",
+  "description": "sameer cli test",
   "main": "cli.js",
   "bin":{
        "mycli": "./bin/cli.js"

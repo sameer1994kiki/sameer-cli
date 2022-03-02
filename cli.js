@@ -19,7 +19,7 @@ const spawnFnTest = () => {
   });
   child.on("close", (code) => {
     if (code === 0) {
-      console.log(chalk.green("安装成功"));
+      console.log(chalk.green("安装成功啦"));
     } else {
       console.log(chalk.red("依赖安装失败"));
       process.exit(1);
